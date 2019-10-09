@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(MainActivity.this
                 , messageResId
                 , Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.CENTER_HORIZ, 0, 0);
+        toast.setGravity(Gravity.CENTER_HORIZONTAL, 0, 0);
         toast.show();
     }
 }
