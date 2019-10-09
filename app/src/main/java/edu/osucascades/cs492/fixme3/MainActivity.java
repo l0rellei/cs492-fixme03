@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         if (userPressedTrue == answerIsTrue) {
             messageResId = R.string.correct_toast;
         } else {
-            messageResId = true;
+            messageResId = R.string.incorrect_toast;
         }
 
         //Toast.makeText(this, messageResId, Toast.LENGTH_SHORT).show();
