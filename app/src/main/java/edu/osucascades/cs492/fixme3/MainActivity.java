@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
 
     private Question[] mQuestionBank = new Question[] {
             new Question(R.string.question_oregon, false),
-            new Question(R.string.question_beer, false),
+            new Question(R.string.question_bier, false),
             new Question(R.string.question_canal, true),
             new Question(R.string.question_columbia, false),
-            new Question(R.string."question_des-chutes", true),
+            new Question(R.string.question_des-chutes, true),
             new Question(R.string.question_lake, false),
             new Question(R.string.question_pilot, false),
     };
