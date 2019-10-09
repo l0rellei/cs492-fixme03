@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d(tag, "onStop() called");
+        Log.d(TAG, "onStop() called");
     }
 
     @Override
