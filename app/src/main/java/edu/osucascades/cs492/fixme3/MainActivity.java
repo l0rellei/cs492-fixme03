@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mNexTButton = findViewById(R.id.next_button);
+        mNextButton = findViewById(R.id.next_button);
         mNextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "onStart() called");
     }
 
-    protected void onResume'() {
+    protected void onResume() {
         super.onResume();
         Log.d(TAG, "onResume() called");
     }
